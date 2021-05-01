@@ -1,0 +1,152 @@
+.aboutJumbotron{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background: url("images/leftcontent.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+#navWhiteColor{
+  position: relative;
+  color: #4f729b;
+}
+
+#navWhiteColor:after{
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 3px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: #fff;
+  transition: width .2s ease;
+  -webkit-transition: width .2s ease;
+}
+
+#navWhiteColor:hover:after{
+  width: 100%;
+  left: 0;
+  background: #fff;
+}
+
+.newNavbar {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 1);
+  transition: 1s all;
+}
+
+#bColor{
+  border-color: #4f729b;
+}
+
+.information{
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 20px;
+}
+
+.information h1:after{
+  display: block;
+  height: 2px;
+  background-color: #4f729b;
+  content: ' ';
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.artwork {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto auto;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    margin-bottom: -55px;
+}
+
+.artwork img{
+  width: 100%;
+}
+
+.information img{
+  height: 400px;
+  width: auto;
+}
+
+#connect{
+  background-color: #4f729b;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  margin-top: 52px;
+}
+
+#connect h1{
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+#icons li{
+  display: inline-block;
+  cursor: pointer;
+  font-size: 35px;
+  padding: 5px;
+  transition: 0.5s ease;
+  color: rgb(176, 228, 234);
+}
+
+#icons li:hover{
+    transform: scale(1.2);
+}
+
+#icons ul{
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 40px;
+  color: #4f729b;
+}
+
+li a{
+  text-decoration: none;
+      color: rgb(176, 228, 234);
+}
+
+li a:hover{
+  color: rgb(176, 228, 234);
+}
+
+#footerButton{
+  border: none;
+  height: 50px;
+  width: 200px;
+  border-radius: 50px;
+  background-color: #4f729b;
+  transition: 0.5s ease;
+  color: white;
+  font-size: 20px;
+}
+
+#footerButton:hover{
+  background-color: #4f729b;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px 0px black;
+}
+
+#logo{
+  height: 75px;
+}
+
+#footerLogo{
+  height: 100px;
+  margin-bottom: 20px;
+}
